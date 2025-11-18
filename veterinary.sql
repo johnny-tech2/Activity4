@@ -134,3 +134,4 @@ DELETE FROM appointments WHERE animalid = (SELECT animalid FROM animals WHERE na
 UPDATE doctors SET dlastname = 'Reyes-Gonzales' WHERE dfirstname = 'Sofia' AND dlastname = 'Reyes';
 SELECT DISTINCT species FROM animals; Expected Output: Dog, Cat
 SELECT SUM(totalamount) AS TotalSales FROM invoices;
+SELECT COUNT(a.appointid) AS total_appointments FROM appointments a JOIN animals an ON a.animalid = an.animalid JOIN owners o ON an.ownerid = o.ownerid WHERE o.ofirstname = 'Maria';
