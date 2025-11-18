@@ -94,8 +94,12 @@ VALUES (1, 1, '2023-01-05', 'Vaccination'),
 
 INSERT INTO doctors(doctorid, dfirstname, dlastname, speciality, phone, email)
 VALUES (1, 'Dr.Maria', 'Santos', 'General Veterinarian', '987-654-3210', 'maria@example.com'),
-       (2, 'Dr.Antonio', 'Gonzales', 'Feline Specialist', '555-123-4567', 'antonio@example.com'),
-       (3, 'Dr.Felipe', 'Luna', 'Orthopedic Specialist', '111-222-3333', 'felipe@example.com'),
-       (4, 'Dr.Sofia', 'Reyes', 'Dermatology Specialist', '999-888-7777', 'sofia@xample.com'),
-       (5, 'Dr.Luis', 'Torres', 'Surgery Specialist', '123-555-7777', 'luis@example.com'),
-       (6, 'Dr.Carmen', 'Fernandez', 'Opthalmology Specialist', '333-222-1111', 'carmen@example.com');
+       (2, 'Dr.Antonio', 'Gonzales', 'Feline Specialist', '535-123-4567', 'antonio@example.com'),
+       (3, 'Dr.Felipe', 'Luna', 'Orthopedic Specialist', '101-292-3333', 'felipe@example.com'),
+       (4, 'Dr.Sofia', 'Reyes', 'Dermatology Specialist', '999-888-7747', 'sofia@xample.com'),
+       (5, 'Dr.Luis', 'Torres', 'Surgery Specialist', '183-455-1777', 'luis@example.com'),
+       (6, 'Dr.Johnnyboi', 'Orias', 'Dentist Specialist', '822-595-8887', 'johnnyboi@example.com'),
+       (7, 'Dr.Carmen', 'Fernandez', 'Opthalmology Specialist', '333-522-1111', 'carmen@example.com'),
+       (8, 'Dr.Pendoy', 'Oli', 'Orthopedic Specialist', '777-118-0009', 'pendoy@example.com'),
+       (9, 'Dr.Sofie', 'Leynes', 'Dermatology Specialist', '222-111-6565', 'sofie@xample.com'),
+       (10,'Dr.Yules', 'Lubis', 'Surgery Specialist', '113-555-7237', 'yules@example.com');
