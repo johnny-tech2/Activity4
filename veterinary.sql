@@ -44,3 +44,13 @@ CREATE TABLE invoices (
     totalamount DECIMAL(10, 2),
     paymentdate DATE
 );
+
+CREATE TABLE medicalrecords (
+    recordid INT PRIMARY KEY,
+    animalid INT PRIMARY KEY, 
+    recorddate DATE, 
+    doctorid INT PRIMARY KEY,
+    diagnosis VARCHAR(255),
+    prescription VARCHAR(255),
+    notes VARCHAR(255)
+);
