@@ -34,7 +34,13 @@ CREATE TABLE doctors (
     doctorid INT PRIMARY KEY,
     dfirstname VARCHAR(50),
     dlastname VARCHAR(50),
-    speciality VARCHAR(50),
+    specialization VARCHAR(100),
     phone VARCHAR(15),
     email VARCHAR(100)
+);
+CREATE TABLE invoices (
+    invoiceid INT PRIMARY KEY,
+    appointid INT,
+    totalamount DECIMAL(10, 2),
+    paymentdate DATE
 );
