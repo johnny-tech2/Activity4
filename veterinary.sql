@@ -79,4 +79,16 @@ VALUES ('chloe', 'Dog', ' Aspin', 'January 01, 2024', 'Male', 'Black'),
        ('Bravo', 'Dog,' 'Husky', 'January 4, 2024', 'Male', 'White'),
        ('Betty', 'Dog', 'Poodle', 'January 20, 2024', 'Male', 'White');
 
+INSERT INTO appointments (appointid, animalid, appointdate, reason) 
+VALUES (1, 1, '2023-01-05', 'Vaccination'), 
+       (2, 2, '2023-02-02', 'Sprained leg'), 
+       (3, 3, '2023-02-15', 'Dental cleaning'),
+       (4, 4, '2023-03-10', 'Skin infection'), 
+       (5, 5, '2023-04-12', 'Vaccination'), 
+       (6, 6, '2023-03-10', 'Flea infestation'), 
+       (7, 7, '2023-04-18', 'Spaying'), 
+       (8, 8, '2023-05-02', 'Allergic reaction'), 
+       (9, 9, '2023-05-20', 'Conjunctivitis'), 
+       (10, 10, '2023-06-01', 'Annual checkup');
+
 
