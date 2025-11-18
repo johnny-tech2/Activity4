@@ -67,3 +67,7 @@ VALUES ('John', 'Doe', '123 Main St', '555-1234', 'jdoe@yahoo.com'),
        ('Linda', 'Rodriguez', '369 Walnut St', '555-8642', 'lrodriguez@yahoo.com'),
        ('Robert', 'Hernandez', '159 Chestnut St', '555-9753', 'rhernandez@yahoo.com');
 
+INSERT INTO animals (name, species, breed, dateofbirth, gender, color)
+VALUES ('chloe', 'dog', ' aspin', 'january 01, 2024', 'male', 'black');
+
+
