@@ -135,3 +135,4 @@ UPDATE doctors SET dlastname = 'Reyes-Gonzales' WHERE dfirstname = 'Sofia' AND d
 SELECT DISTINCT species FROM animals; Expected Output: Dog, Cat
 SELECT SUM(totalamount) AS TotalSales FROM invoices;
 SELECT COUNT(a.appointid) AS total_appointments FROM appointments a JOIN animals an ON a.animalid = an.animalid JOIN owners o ON an.ownerid = o.ownerid WHERE o.ofirstname = 'Maria';
+SELECT an.name FROM appointments a JOIN animals an ON a.animalid = an.animalid GROUP BY an.name ORDER BY COUNT(a.appointid) DESC LIMIT 1;
