@@ -54,3 +54,16 @@ CREATE TABLE medicalrecords (
     prescription VARCHAR(255),
     notes VARCHAR(255)
 );
+
+INSERT INTO owners (ofirstname, olastname, address, phone, email) 
+VALUES ('John', 'Doe', '123 Main St', '555-1234', 'jdoe@yahoo.com'),
+       ('Jane', 'Smith', '456 Oak St', '555-5678', 'jsmith@yahoo.com'),
+       ('Emily', 'Johnson', '789 Pine St', '555-8765', 'ejohnson@yahoo.com'),
+       ('Michael', 'Brown', '321 Maple St', '555-4321', 'mbrown@yahoo.com'),
+       ('Sarah', 'Davis', '654 Cedar St', '555-6789', 'sdavis@yahoo.com'),
+       ('David', 'Wilson', '987 Birch St', '555-9876', 'dwilson@yahoo.com'),
+       ('Laura', 'Garcia', '147 Spruce St', '555-2468', 'lgarcia@yahoo.com'),
+       ('James', 'Martinez', '258 Elm St', '555-1357', 'jmartinez@yahoo.com'),
+       ('Linda', 'Rodriguez', '369 Walnut St', '555-8642', 'lrodriguez@yahoo.com'),
+       ('Robert', 'Hernandez', '159 Chestnut St', '555-9753', 'rhernandez@yahoo.com');
+
