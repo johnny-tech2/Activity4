@@ -68,6 +68,15 @@ VALUES ('John', 'Doe', '123 Main St', '555-1234', 'jdoe@yahoo.com'),
        ('Robert', 'Hernandez', '159 Chestnut St', '555-9753', 'rhernandez@yahoo.com');
 
 INSERT INTO animals (name, species, breed, dateofbirth, gender, color)
-VALUES ('chloe', 'dog', ' aspin', 'january 01, 2024', 'male', 'black');
+VALUES ('chloe', 'Dog', ' Aspin', 'January 01, 2024', 'Male', 'Black'),
+       ('Robert' 'Dog', 'Shit-Zu', 'January 5, 2025', 'Female', 'White-Brown'),
+       ('Whitey', 'Cat', 'Persian', 'February 22, 2025', 'Female', 'White'),
+       ('Snow', 'Cat', 'Persian', 'December 12, 2024', 'Female', 'White'),
+       ('Gigi', 'Chicken', 'Native', 'April 29, 2025', 'Female', 'Red'),
+       ('Clark', 'Bird', 'Love Birds', 'March 15, 202', 'Male', 'Green'),
+       ('Browny', 'Dog', 'American Bully', 'June 20, 2025', 'Male', 'White'),
+       ('Alpha', 'Dog', 'Husky', 'April 11, 2025', 'Male', 'Gray'),
+       ('Bravo', 'Dog,' 'Husky', 'January 4, 2024', 'Male', 'White'),
+       ('Betty', 'Dog', 'Poodle', 'January 20, 2024', 'Male', 'White');
 
 
